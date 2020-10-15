@@ -1,0 +1,676 @@
+{
+  "title1": "Dear user,",
+  "title2": "Before you use the Mirror software,\nplease be aware of the following risks:",
+  "contents": [
+    {
+      "content": "Identity",
+      "expandable": false,
+      "list": [
+        {
+          "depth": 1,
+          "content": "mAssets simply leverage blockchain technology to mirror the price of underlying assets, and are not actual assets. No custodian holds underlying assets for you on your behalf. You hold no legal rights to the underlying assets, only to mirrored tokens to the blockchain. Go to mirror.finance to learn more about mirrored assets."
+        }
+      ]
+    },
+    {
+      "content": "Significant risks",
+      "expandable": false,
+      "list": [
+        {
+          "depth": 1,
+          "content": "While the Mirror Protocol has been carefully engineered to have its tokens track the price of targeted assets closely, it is a new technology that may contain significant risks, bugs, or issues that may lead the software to not work as intended. The Mirror Wallet does not make any guarantees of the correctness of the software, and disclaim that the underlying software is intended to be used AS-IS, and is to be used at your own risk."
+        }
+      ]
+    },
+    {
+      "content": "Limitations in ownership",
+      "expandable": false,
+      "list": [
+        {
+          "depth": 1,
+          "content": "Given that mirrored assets are simple synthetic tokens, they do not confer to the bearer many rights that are to be expected in holding the actual underlying asset, such as governance rights and rights to dividends."
+        }
+      ]
+    },
+    {
+      "content": "Agency disclaimer",
+      "expandable": false,
+      "list": [
+        {
+          "depth": 1,
+          "content": "No entity, including the Mirror Wallet team, has control over the list of assets that are listed on the Mirror Protocol. Users can vote in various assets controlled by random people. The Mirror Wallet team is not responsible for the listing and failure of any mirrored assets on the Mirror Protocol."
+        }
+      ]
+    },
+    {
+      "content": "Terms of Service",
+      "expandable": true,
+      "list": [
+        {
+          "depth": 1,
+          "content": "This Terms of Service (“Agreement”) is made between you (“User”) and ATQ Capital Pte.Ltd. (Company Registration Number: 201924338G), a company incorporated in Singapore and having its registered address at 3 Fraser Street, DUO Tower, #05-25,Singapore 189352 (“Company”) and is legally binding between you and Company. In thisAgreement (a) “we” and “us” refer to the Company and “our” shall be construedaccordingly; and (b) “you” refers to User and “your” shall be construed accordingly. Eachof you and the Company shall hereinafter be referred to as a “Party”, and collectively,you and the Company shall hereinafter be referred to as the “Parties”."
+        },
+        {
+          "depth": 1,
+          "content": "We hereby reminds you that you must carefully read & understand the full content of thisAgreement and other documents mentioned in this Agreement before using our MirrorWallet Mobile Application available on various mobile platforms including but not limitedto Google Play and Apple App Store (Mirror Wallet or “the App”). In particular, you mustcarefully read the section of “Disclaimer and Limitation of Liability” and other sectionswhich are displayed in bold in this Agreement. You must make sure that you fullyunderstand the whole Agreement and evaluate the risks of using the App on your own."
+        },
+        {
+          "depth": 2,
+          "content": "A) Confirmation and Acceptance of this Agreement"
+        },
+        {
+          "depth": 3,
+          "content": "1. You understand that this Agreement and other relevant documents apply to Mirror Wallet and the Decentralized Applications (“DApps”) which are developed and owned independently by Company on Mirror Wallet App (and excluding DApps developed by third parties)."
+        },
+        {
+          "depth": 3,
+          "content": "2. After you download the App and start to create, recover Identity (defined as below) or import wallet, you are deemed as having read, understood and accepted this Agreement, which shall cause this Agreement to become effective and legally binding on both you and Company immediately."
+        },
+        {
+          "depth": 3,
+          "content": "** IF THE USER DOES NOT AGREE TO THE CONTENT OF THIS AGREEMENT, YOU SHALL CEASE USAGE OF the App IMMEDIATELY AND IF YOU HAVE DOWNLOADED Mirror Wallet App, PROCEED TO DELETE the App IMMEDIATELY. **"
+        },
+        {
+          "depth": 3,
+          "content": "In accessing or using Mirror Wallet, you agree:"
+        },
+        {
+          "depth": 4,
+          "content": "a. To be bound by the latest version of this Agreement without variation or modification;"
+        },
+        {
+          "depth": 4,
+          "content": "b. In any of the jurisdiction to which you are subject, you are of legal age to use the App and to create binding legal and financial obligations for any liability you may incur as a result of the use of the App; and"
+        },
+        {
+          "depth": 4,
+          "content": "c. you are not an “Excluded Person” (as defined in Section B.2)."
+        },
+        {
+          "depth": 3,
+          "content": "4. Company may, at its sole discretion, modify or replace this Agreement at any time. The modified Agreement will automatically take effect once it is posted on the App and you will not be notified separately."
+        },
+        {
+          "depth": 3,
+          "content": "** If you do not agree with the modifications, you shall cease to use the App immediately. Use of the App by you after any modification to this Agreement constitutes your acceptance of this Agreement as modified."
+        },
+        {
+          "depth": 2,
+          "content": "B) Definition"
+        },
+        {
+          "depth": 3,
+          "content": "1. Mirror Wallet: means the platform wallet developed by Company based on Terra Blockchain Ecosystem and other supporting tools which are developed for the convenience of the Users when using Terra blockchain system. It is a Cross-Chain Non-Custodial Wallet."
+        },
+        {
+          "depth": 3,
+          "content": "2. Excluded Person:a.A person other than a natural person who possesses legal and mental capacity to enter into this Agreement; orb.A User who is prohibited, restricted, unauthorized or ineligible in any form or manner whether in full or in part under this Agreement, laws, regulatory requirements, or rules in the jurisdiction applicable to such User, to use the Services (as defined below). For the avoidance of doubt, Users from Singapore, United State, China, Russia, North Korea & any countries prohibited of doing such activities are also covered under this definition of ‘Excluded Person’."
+        },
+        {
+          "depth": 3,
+          "content": "3. Identity: means the blockchain identity generated from a pair of your Public Key and Private Key."
+        },
+        {
+          "depth": 3,
+          "content": "4. Create Account or Import Wallet: means your use of Mirror Wallet to create or import wallet after your acceptance of this Agreement."
+        },
+        {
+          "depth": 3,
+          "content": "5. Wallet Password: means the password determined by you when you create thewallet. The Wallet Password will be used to encrypt and protect your Private Key. Mirror Wallet, as a Decentralized Application, will not store your Wallet Password on our servers."
+        },
+        {
+          "depth": 3,
+          "content": "** If you lose or forget your Account Access Password, you will have to reset the Wallet Password with your Private Key or Mnemonic Words. And the App nor the Company has no ways to recover your Wallet’s Asset if you lose all the important“Keys” **"
+        },
+        {
+          "depth": 3,
+          "content": "6. Alert/Notification: Means the messages displayed on Mirror Wallet’s operation interface which provides suggestions for Users on subsequent operations."
+        },
+        {
+          "depth": 3,
+          "content": "7. Specific Users: Means Users if ANY who should cooperate with Company and disclose Personal Information in order to comply with the laws, regulations andpolicies of Singapore and other countries"
+        },
+        {
+          "depth": 3,
+          "content": "8. Private Key: if ANY, Consists of 256 random bits. Private Key is the core for the User to hold and use the Tokens/Mirror Asset."
+        },
+        {
+          "depth": 3,
+          "content": "9. Public Key: Derives from the Private Key based on cryptography and is used to generate wallet addresses. A wallet address is a public address for receipt of Tokens/mAssets."
+        },
+        {
+          "depth": 3,
+          "content": "10. Tokens: if ANY, Means the tokens which are supported by Mirror Wallet"
+        },
+        {
+          "depth": 3,
+          "content": "11. mToken / mAsset: if ANY, Means a mirror asset/token created and minted back by the Terra blockchain ecosystem for user to trade."
+        },
+        {
+          "depth": 3,
+          "content": "** We, the App is solely and ONLY provide the “bridge” for user to perform any transaction based on Mirror Protocol Blockchain built and governed by the Mirror Protocol Ecosystem (Based on Terra Blockchain)**"
+        },
+        {
+          "depth": 3,
+          "content": "12. Materials: Means contents in the columns of “Browse”, “Market” etc. on Mirror Wallet. The Materials are third parties’ proprietary properties. User shall not reproduce or distribute the materials without their permission and authorization. Foregoing Materials are solely for your reference and shall not be considered as guidance or advice on your transactions provided by Company."
+        },
+        {
+          "depth": 3,
+          "content": "13. Smart Contract: Means the type of Smart Contract operating on Terra blockchain and CW-20 Compatible (https://github.com/CosmWasm/cosmwasm-plus/tree/master/contracts/cw20-base)"
+        },
+        {
+          "depth": 3,
+          "content": "14. UST / TerraUSD: Means A native Terra Stablecoin pegged to the US Dollar equivalent"
+        },
+        {
+          "depth": 3,
+          "content": "15. Third-Party Service: if ANY, Means the products and services provided by the third parties such as third-party-developed DApp, third-party-developed Smart Contract, third-party-developed Open Source License, third-party-developed crypto currency hardware wallet, third-party-developed webpage, and third-party-developed exchange etc."
+        },
+        {
+          "depth": 2,
+          "content": "C) mAssets of Mirror Protocol built by Terra Blockchain Ecosystem Disclaimers:"
+        },
+        {
+          "depth": 3,
+          "content": "1. Identity: mAssets simply leverage blockchain technology to mirror the price of underlying assets, and are not actual assets. No custodian holds underlying assets for you on your behalf. You hold no legal rights to the underlying assets, only to mirrored tokens to the blockchain. Go to mirrorprotocol.com to learn more about mirrored assets."
+        },
+        {
+          "depth": 3,
+          "content": "2. Significant risks: While the Mirror Protocol has been carefully engineered to have its tokens track the price of targeted assets closely, it is a new technology that may contain significant risks, bugs, or issues that may lead the software to not work as intended. The Mirror Wallet does not make any guarantees of the correctness of the software, and disclaim that the underlying software is intended to be used AS-IS, and is to be used at your own risk."
+        },
+        {
+          "depth": 3,
+          "content": "3. Limitations in ownership: Given that mirrored assets are simple synthetic tokens, they do not confer to the bearer many rights that are to be expected in holding the actual underlying asset, such as governance rights and rights to dividends."
+        },
+        {
+          "depth": 3,
+          "content": "4. Agency disclaimer: No entity, including the Mirror Wallet team, has control over the list of assets that are listed on the Mirror Protocol. Users can vote on various assets controlled by random people. The Mirror Wallet team is not responsible for the listing and failure of any mirrored assets on the Mirror Protocol."
+        },
+        {
+          "depth": 2,
+          "content": "Mirror Wallet App Services (collectively, the “Services”)"
+        },
+        {
+          "depth": 3,
+          "content": "1. Create Account: You may use your major social app account (such as Google account, Facebook account, etc) to create an account in the App which you FULLY agree on this agreement"
+        },
+        {
+          "depth": 3,
+          "content": "2. Import wallet: You may use Mirror Wallet to create a new wallet or import wallets generated by other wallet application. You may only import wallets with Tokens which are supported by Mirror Protocol (Terra Blockchain Ecosystem)."
+        },
+        {
+          "depth": 3,
+          "content": "3. Transfer and receive Tokens: You may manage your digital Tokens/mAssets by using the transfer and receipt functionalities of the App."
+        },
+        {
+          "depth": 3,
+          "content": "4. Manage Tokens: You may use Mirror Wallet to add, manage or remove the Tokens [from the Mirror Wallet interface] which is supported by Terra Blockchain Ecosystem (Mirror Protocol Platform)."
+        },
+        {
+          "depth": 3,
+          "content": "5. Decentralized Exchange (DEX). Users may exchange digital Tokens with third parties on the third-party-developed Smart Contract (for example TerraSwap). Mirror Wallet acts as an interface tool for Users to interact with the third-party-developed Smart Contracts and displays relevant results of such exchange of digital Tokens."
+        },
+        {
+          "depth": 3,
+          "content": "6. Browse DApps: if ANY, Users may use the App to visit and use the services provided by DApps (including DApps developed by Company and DApps developed by third parties)."
+        },
+        {
+          "depth": 3,
+          "content": "7. “Transaction” or “Access” without Password: if ANY, Users may use the function without Password to access account and/or perform a transaction. Such function stores Users’ Wallet Password in the Keychain/Keystore of Users’ mobile devices via secure encryption algorithm. Users’ biological identification (Touch ID or Face ID) and authentication are called when conducting transactions, in order to quickly complete task and signature."
+        },
+        {
+          "depth": 3,
+          "content": "8. Transaction records: We will copy all or part of your transaction records from the blockchain ecosystem. However, Users shall refer to the blockchain system for the latest transaction records."
+        },
+        {
+          "depth": 3,
+          "content": "9. Suspension of service. You understand that we are not able to reverse or cancel the transaction because transactions based on blockchain technologies are irrevocable. However, under certain circumstances, we may suspend or limit the function of the App being used."
+        },
+        {
+          "depth": 3,
+          "underline": true,
+          "content": "10. Users who use the App acknowledges and accepts that:"
+        },
+        {
+          "depth": 4,
+          "content": "a. The decentralization feature of blockchain and to protect the security of your digital Tokens, Company offers decentralized service which is largely different from the traditional financial institutions. Users acknowledge and accept that the Company SHALL NOT have any responsibility to:"
+        },
+        {
+          "depth": 5,
+          "content": "i. Store Users’ Wallet Password (the password Users set when creating or importing wallets), Private Key, Mnemonic Words or Keystore;"
+        },
+        {
+          "depth": 5,
+          "content": "ii. Recover Users’ Wallet Password, Private Key, Mnemonic Words or Keystore;"
+        },
+        {
+          "depth": 5,
+          "content": "iii. Freeze the wallet;"
+        },
+        {
+          "depth": 5,
+          "content": "iv. Report the loss of wallet;"
+        },
+        {
+          "depth": 5,
+          "content": "v. Recover the wallet; or"
+        },
+        {
+          "depth": 5,
+          "content": "vi. Rollback transactions."
+        },
+        {
+          "depth": 4,
+          "content": "b. You shall bear sole responsibility to take care of your mobile devices, and back up the Wallet Password, Mnemonic Words, Private Key and Keystore if ANY. In the event that: your mobile device is lost, your Mirror Wallet App or your wallet is deleted and not backed up, your wallet is stolen or you forget your Wallet Password, Private Key, Mnemonic Words or Keystore if ANY, the Company will not be able to recover the wallet or recover Wallet Password, Private Key, Mnemonic Words or Keystore. The Company may not be able to cancel transactions for the mishandling of Users (such as typing in wrong addresses for transactions, wrong amounts to be exchanged) and the Company shall not be responsible in any way in respect of the same."
+        },
+        {
+          "depth": 4,
+          "content": "c. When you use the function “without Password” of Mirror Wallet, please properly back up the Wallet Password. After multiple failed attempts to verify your Touch ID or Face ID, you will need to input your Wallet Password. If you forget Wallet Password, you need to import Mnemonic Words/Private Key and set a new Wallet Password. Company does not store your biological information such as your Touch ID or Face ID information, and the Company shall not be responsible in any way in respect of the same."
+        },
+        {
+          "depth": 3,
+          "content": "11. The App does not support all existing tokens/cryptocurrencies/coins/assets on market. Do not use Mirror Wallet App to handle any non-supported tokens/cryptocurrencies/coins/assets."
+        },
+        {
+          "depth": 3,
+          "content": "12. The DApps integrated into Mirror Wallet may include those developed independently by Company and those developed by third parties. We only provide blockchain as a “bridge” of functions for those third-party-developed DApps, and thus does not offer any guarantee for functions or service qualities of those third-party-developed DApps. Users shall, at their sole discretion, decide whether there would be any risks to accept the services provided by or to conduct transactions on the third-party-developed DApps."
+        },
+        {
+          "depth": 3,
+          "content": "13. The Trade/Swap/Buy/Sell/Store functions of the App enable Users to exchange digital Tokens via Smart Contracts (instead of Mirror Wallet) on the blockchain ecosystem in essence. As to services offered by the third-party-developed Smart Contracts, Mirror Wallet App acts solely as a tool for Users to use the third-party-developed Smart Contracts, and thus does not provide any guarantee for functions or service qualities of those Smart Contracts. Before accepting services of or conducting transactions on such third-party-developed Smart Contracts (Mirror Protocol based in Terra Blockchain Ecosystem), Users shall, at their sole discretion, decide the risks of services or transactions provided by such Smart Contracts. Prior to commencing relevant transactions, Users shall carefully read and then agree with terms of use of relevant Smart Contracts updated from time to time."
+        },
+        {
+          "depth": 3,
+          "content": "14. The cryptocurrency wallet integrated on Mirror Wallet is provided by third party and Mirror Wallet does not provide any guarantee for functions or service qualities of the third-party-developed crypto currency hardware wallet, and Mirror Wallet does not guarantee that Mirror Wallet can be matched with any kind and version of crypto currency hardware wallet (please see the Company’s notifications made from time to time). Before using third-party-developed crypto currency hardware wallet, Users shall, at their sole discretion, decide and assess the risks of such crypto currency hardware wallet. Users shall carefully read and agree with terms of use etc of such crypto currency hardware wallet updated from time to time."
+        },
+        {
+          "depth": 3,
+          "content": "15. If Users access any websites and any third-party-developed DApps not integrated on the App by entering URL under the developer mode, Users shall understand the security risks of the websites and the third-party-developed DApps linked by such URL, and assume all risks and consequences independently."
+        }
+      ]
+    },
+    {
+      "content": "Rights and Responsibility",
+      "expandable": true,
+      "list": [
+        {
+          "depth": 1,
+          "content": "A) Your Rights and Obligations"
+        },
+        {
+          "depth": 2,
+          "content": "1. Create or Import Wallet"
+        },
+        {
+          "depth": 3,
+          "content": "a. Create or import wallet: you are entitled to use Mirror Wallet on your mobile device to create and/or import wallet, set Wallet Password and use your wallet on the App to transfer and receive Tokens on blockchain."
+        },
+        {
+          "depth": 3,
+          "content": "b. Company may develop different versions of Mirror Wallet for different terminal devices. You shall download and install applicable version. If you download and install Mirror Wallet or other application with the same name as “Mirror Wallet” from any unauthorized third party, Company cannot guarantee the normal operation or security of such application. Any loss caused by using such application shall be borne solely by you."
+        },
+        {
+          "depth": 3,
+          "content": "c. A previous version (Older version) of the App may stop to operate after a new version is released. Company cannot guarantee the security, continuous operation or customer services for the previous version. Users shall download and use the latest version."
+        },
+        {
+          "depth": 1,
+          "content": "B) Use of Mirror Wallet"
+        },
+        {
+          "depth": 2,
+          "content": "1. You shall bear sole responsibility to take care of your mobile devices, Wallet Password, Private Key, Mnemonic Words and Keystore. Company does not store or hold the above information for Users. You shall be solely responsible for any risks, liabilities, losses and expenses which result from frauds, you losing your mobile device or crypto currency hardware wallet, disclosing (whether actively or passively) or forgetting Wallet Password, Private Key, Mnemonic Words or Keystore, or your wallet being attacked."
+        },
+        {
+          "depth": 2,
+          "content": "2. Mirror Wallet Alerts/Notification. You understand and agree to comply with the Alert(s)/Notifications published by the Company on Mirror Wallet or ANY Mirror Wallet Social Media Chanel (Such as Twitter). You shall be responsible for any risks, liabilities, losses and expenses which result from your failure to comply with any Alert(s)."
+        },
+        {
+          "depth": 2,
+          "content": "3. You understand that the App undertakes no responsibility to conduct due diligence on the Third-Party Service. You shall assess carefully and assume all risks in connection with the use of the product."
+        },
+        {
+          "depth": 2,
+          "content": "4. Provision of information and documents. To the extent that the Company determines, in its sole discretion, that it is necessary to obtain certain information about User in order to comply with any applicable law or regulation in connection with the use or operation of Mirror Wallet App, User shall provide Company with such information promptly upon such request, and acknowledges and accepts that Company may restrict, suspend or terminate your use of the App until such requested information has been provided to the satisfaction of Company. User undertakes to notify Company of any change in the documents and information provided by User to Company pursuant to this Agreement and in the absence of any notification in writing notifying of any change, Company is entitled to assume that the documents and information provided by User remain true, correct, not misleading and unchanged."
+        },
+        {
+          "depth": 2,
+          "content": "5. Complete identification verification: IF ANY, If Company reasonably deems your operation or transactions to be abnormal, or considers your identification to be doubtful, or Company considers it necessary to verify your identification documents or other necessary documents, you shall cooperate with Company and provide your valid identification documents or other necessary documents and complete the identification verification in time."
+        },
+        {
+          "depth": 2,
+          "content": "6. Transfer of Tokens"
+        },
+        {
+          "depth": 3,
+          "content": "a. You understand that you may be subject to daily limits on the amount and times of transfers according to your location, regulatory requirements, transferring purposes, risk control by Mirror Wallet, or identification verification."
+        },
+        {
+          "depth": 3,
+          "content": "b. You understand that blockchain operations are “irrevocable”. When you use Mirror Wallet to transfer Tokens, you shall be solely responsible for the consequences of your mishandling of the transfer (including but not limited to wrong address, problems of the node servers selected by you)."
+        },
+        {
+          "depth": 3,
+          "content": "c. You understand that the following reasons may result in a “transfer failed” or “mining overtime” prompt:"
+        },
+        {
+          "depth": 4,
+          "content": "i. Insufficient balance in wallet;"
+        },
+        {
+          "depth": 4,
+          "content": "ii. Insufficient “Transaction Fees” for transaction;"
+        },
+        {
+          "depth": 4,
+          "content": "iii. Blockchain’s failure to execute the code of smart contracts;"
+        },
+        {
+          "depth": 4,
+          "content": "iv. The transfer amount exceeding the transfer limits imposed by authorities, Mirror Wallet or laws or regulations;"
+        },
+        {
+          "depth": 4,
+          "content": "v. Technical failure of the network or equipment;"
+        },
+        {
+          "depth": 4,
+          "content": "vi. Abandoned transactions result from blockchain network congestion or failure;"
+        },
+        {
+          "depth": 4,
+          "content": "vii. the wallet address of yours or your counterparty’s is identified as special addresses, such as high-risk address."
+        },
+        {
+          "depth": 3,
+          "content": "d. You understand that Mirror Wallet is only a tool for transfer of Tokens. Company shall be deemed to have fulfilled its obligations once you have completed the transfer and shall not be held liable for any dispute in relation thereto."
+        },
+        {
+          "depth": 3,
+          "content": "e. Trade/Exchange: You understand that the limits of amounts that Users may trade/exchange per day or per trade are subject to limitations of the third-party-developed Smart Contracts. Company may also set limitations and adjust from time to time the limit of amounts that Users can exchange or trade."
+        },
+        {
+          "depth": 3,
+          "content": "f. Compliance. You understand that you shall abide by applicable laws, regulations and policies when you use Mirror Wallet or the DApps or the Smart Contracts on Mirror Wallet."
+        },
+        {
+          "depth": 3,
+          "content": "g. Notifications: Mirror Wallet may send notifications to you via the App ONLY and/or any of OUR social media account such as Twitter/Discord, Notification Centre information, popup tips or client-end notices (e.g., information about your transfer or suggestions on certain operations) which you shall be aware of timely."
+        },
+        {
+          "depth": 2,
+          "content": "7. Service fees and taxes."
+        },
+        {
+          "depth": 3,
+          "content": "a. When you use services, third-party-developed Smart Contracts may charge handling fees and/or service fees from you, which shall be subject to the fees collected by those Smart Contracts, and the relevant information displayed on Mirror Wallet is merely for your reference;"
+        },
+        {
+          "depth": 3,
+          "content": "b. The Company does not charge any fees at this moment but may reach an agreement with you or announce rules regarding service fees in the future"
+        },
+        {
+          "depth": 3,
+          "content": "c. You need to pay network fees or tax fees when you transfer Tokens, the amount of which would be on your sole discretion and would be collected by the relevant blockchain network;"
+        },
+        {
+          "depth": 3,
+          "content": "d. You understand that your transfer of Tokens may fail under certain circumstances and in such event, you may still be charged gas by the relevant blockchain network, notwithstanding the failed transfer attempted"
+        },
+        {
+          "depth": 3,
+          "content": "e. You shall bear all the applicable taxes and other expenses occurred due to your transactions on Mirror Wallet"
+        },
+        {
+          "depth": 3,
+          "content": "f. Mirror Wallet may contain third-party-developed Open Source License and source code and the Company does not provide any guarantee for functions, non-existence of virus or vulnerabilities etc of such third-party-developed Open Source License and source code."
+        },
+        {
+          "depth": 1,
+          "content": "C) Risks"
+        },
+        {
+          "depth": 2,
+          "content": "1. You understand and acknowledge that the blockchain technology is a field of innovation where the laws and regulations are not fully established. You may be faced with material risks including instability of technology or failure for fiat-token exchange. You also understand that Tokens have much higher volatility comparing to other financial assets. You shall hold or dispose of the Tokens in a reasonable way and corresponding to your financial status and risk preferences. You also acknowledge that the market information is captured from exchanges by Mirror Wallet and may not represent the latest or the best quotation of each Token."
+        },
+        {
+          "depth": 2,
+          "content": "2. If you or your counterparty fails to comply with this Agreement or fails to follow the instructions, tips or rules on the website or on the page of the transaction or payment, the Company does not guarantee successful transfer of the Tokens and the Company shall not be held liable for any of the consequences of such failure. If you or your counterparty has already received the payment in Mirror wallet or third-party-developed wallet, you understand that transactions on blockchain are irreversible and irrevocable. You and your counterparty shall assume the liabilities and consequences of your transactions."
+        },
+        {
+          "depth": 2,
+          "content": "3. You understand and acknowledge that the App is only an interface tool for Users to interact with the third-party-developed Smart Contracts and displays relevant results of such completed transactions."
+        },
+        {
+          "depth": 2,
+          "content": "4. When you use Third-Party Service through Mirror Wallet, Company strongly suggest you read the terms of use, privacy policy, and other relevant documents and information of such Third-Party Service carefully, get familiar with the counterparty and the product information and evaluate the risks before you make transactions on such third parties. You understand that such transactions and corresponding contractual relationship are between you and your counterparty, instead of the Company. The Company shall not be held liable for any risks, responsibilities, losses or expenses occurred due to such transactions."
+        },
+        {
+          "depth": 2,
+          "content": "5. When you transfer your tokens directly to another wallet address, it is your sole responsibility to make sure that your counterparty is a person with full capacity for civil acts and decide whether you shall transact with him/her."
+        },
+        {
+          "depth": 2,
+          "content": "6. You shall check the official blockchain system or other blockchain tools when you receive an Alert such as “transaction failed” or “Long Transaction Time” in order to avoid repetitive transfer. If you fail to follow this instruction, you shall bear the losses and expenses occurred due to such repetitive transfer."
+        },
+        {
+          "depth": 2,
+          "content": "7. You understand that after you create or import wallet on Mirror Wallet, your Keystore, Private Key and Mnemonic Words if ANY are only stored on your mobile device and will not be stored in Mirror Wallet or on the servers of Company. You may change another mobile device to use Mirror Wallet after you follow the instructions on the App to back up your wallet. If you lose your mobile device before you could write down or backup your Wallet Password, Private Key, Mnemonic Words or Keystore if ANY, you may lose your Tokens and Company will not be able to recover them. If your Wallet Password, Private Key, Mnemonic Words or Keystore if any is disclosed or the device which stores or holds your Wallet Password, Private Key, Mnemonic Words or Keystore is hacked or attacked, you may lose your Tokens and Company will not be able to recover them. Any and all losses arising in connection with the foregoing shall be borne solely by you."
+        },
+        {
+          "depth": 2,
+          "content": "8. We STRONGLY suggest you backup your Wallet Password, Private Key, Mnemonic Words and Keystore if any when you create or import wallet by writing them down on papers or backup them in password management apps. Please do not use electronic methods such as screenshots, e-mails, note-taking apps in cell phones, text messages, any social media apps to backup any of the foregoing information."
+        },
+        {
+          "depth": 2,
+          "content": "9. When using the function of “without Password” of Mirror Wallet, we remind you to use such function carefully and before using the same, we suggest that you should:"
+        },
+        {
+          "depth": 3,
+          "content": "a. Understand carefully the security level of biological identification function of your mobile device;"
+        },
+        {
+          "depth": 3,
+          "content": "b. Do not turn on such function in a public phone; and"
+        },
+        {
+          "depth": 3,
+          "content": "c. Do not turn on such function in case of relatively large amount of crypto currency."
+        },
+        {
+          "depth": 3,
+          "content": "d. In order to avoid potential security risks, we suggest you use the App in a secured network environment. Please do not use a jailbreak or rooted mobile device."
+        },
+        {
+          "depth": 3,
+          "content": "e. Please be alert to frauds when you use Mirror Wallet. If you find any suspicious activity, we encourage you to inform us immediately."
+        }
+      ]
+    },
+    {
+      "content": "Modifications of Company Service",
+      "expandable": true,
+      "list": [
+        {
+          "depth": 1,
+          "content": "A) Change, Suspension, Termination of Company Service"
+        },
+        {
+          "depth": 2,
+          "content": "1. You acknowledge and accept that Company may, at its sole discretion, provide only a part of the Services for the time being, suspend certain Services or provide new Services in the future. When we change our Services, your continuous use of Mirror Wallet is deemed as your acceptance of this Agreement and revisions of this Agreement."
+        },
+        {
+          "depth": 2,
+          "content": "2. In order to avoid (to the extent possible) any mishandling of Mirror Wallet or any risk to the security of your Tokens, you shall not use the App if you do not possess the basic knowledge of blockchain. For Users who do not possess basic knowledge of blockchain, Company may refuse to provide all or part of the Services on the App to such Users."
+        },
+        {
+          "depth": 2,
+          "content": "3. You understand that Company may suspend the Services under the following circumstances (or may completely terminate the Services in connection with any of the following circumstances):"
+        },
+        {
+          "depth": 3,
+          "content": "a. Maintenance, upgrading, failure of equipment and blockchain system and the interruption of communications etc., which lead to the suspension of the operation of the App;"
+        },
+        {
+          "depth": 3,
+          "content": "b. force majeure events including but not limited to typhoon, earthquake, tsunami, flood, power outage, war, or terrorist attacks, or computer viruses, trojan horse, hacker attacks, system instability or government behaviors and other reasons, which result in the Company’s inability to provide Services or if in Company’s reasonable opinion, continuous provision of Services would result in significant risks;"
+        },
+        {
+          "depth": 3,
+          "content": "c. Material adverse change of applicable laws or policies; or"
+        },
+        {
+          "depth": 3,
+          "content": "d. any other event(s) which Company cannot control or reasonably predict."
+        },
+        {
+          "depth": 3,
+          "content": "e. Company reserves the right to unilaterally suspend or terminate all or part of the Services or any function of Mirror Wallet without NOTICE for ANY REASON deem appropriate"
+        }
+      ]
+    },
+    {
+      "content": "Disclaimer",
+      "expandable": true,
+      "list": [
+        {
+          "depth": 1,
+          "content": "A) Your Representations and Warranties"
+        },
+        {
+          "depth": 2,
+          "content": "1. You shall comply with all applicable laws and regulations of the country or area you reside in. You shall not use Mirror Wallet for any unlawful purposes or by any unlawful means."
+        },
+        {
+          "depth": 2,
+          "content": "2. You shall not be an Excluded Person who can’t use Mirror Wallet’s services."
+        },
+        {
+          "depth": 2,
+          "content": "3. You shall not use the App to commit any illegal or unlawful activities, including but not limited to:"
+        },
+        {
+          "depth": 3,
+          "content": "a. Activities endangering national security of the country or area you reside in, disclosing state secrets, overturning the government or undermining national unity;"
+        },
+        {
+          "depth": 3,
+          "content": "b. Any illegal conducts, such as money laundering, illegal fund raising etc.;"
+        },
+        {
+          "depth": 3,
+          "content": "c. Accessing Company services, collecting or processing the content provided by Company, intervening or attempting to intervene any Users, by the employment of any automated programs, software, network engines, web crawlers, web analytics tools, data mining tools or similar tools etc.;"
+        },
+        {
+          "depth": 3,
+          "content": "d. Providing gambling information or inducing others to engage in gambling;"
+        },
+        {
+          "depth": 3,
+          "content": "e. Invading into others’ Mirror Wallets to steal Tokens"
+        },
+        {
+          "depth": 3,
+          "content": "f. Engaging in any inaccurate or false transactions with the counterparty;"
+        },
+        {
+          "depth": 3,
+          "content": "g. Committing any activities which harms or attempts to harm Mirror Wallet service system and data;"
+        },
+        {
+          "depth": 3,
+          "content": "h. Other activities which Company has reason to believe are inappropriate."
+        },
+        {
+          "depth": 2,
+          "content": "4. You understand and accept that you shall be responsible for any violation of law (including but not limited to the customs and/or tax regulations) or for breach of this Agreement by you and shall indemnify Company against the losses, the third-party claims or administrative penalties against Company incurred by such violation or breach, including reasonable attorney’s fees."
+        },
+        {
+          "depth": 1,
+          "content": "B) Privacy Policy"
+        },
+        {
+          "depth": 2,
+          "content": "Any personal data or information which you provide to us is also subject to our privacy policy (“Mirror Wallet Privacy Policy” and The Company), which is incorporated by reference into this Agreement."
+        },
+        {
+          "depth": 1,
+          "content": "C) Disclaimer and Limitation of Liability"
+        },
+        {
+          "depth": 2,
+          "content": "1. Company only undertakes obligations expressly set forth in this Agreement."
+        },
+        {
+          "depth": 2,
+          "content": "2. YOU ACKNOWLEDGE AND ACCEPT THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, Mirror Wallet IS PROVIDED ON AN “AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS” BASIS. Company shall not be held liable for malfunction of Mirror Wallet of ANY KINDS"
+        },
+        {
+          "depth": 2,
+          "content": "3. Company shall not be held liable due to any of the User own false/misconduct / “misuse” of the App due to lack of knowledge of the blockchain and/or use of the functionality of the App"
+        },
+        {
+          "depth": 2,
+          "content": "4. You understand that Mirror Wallet is only a management tool for Tokens which is incapable to control the quality, security and legitimacy of the Third-Party Service, or the authenticity and accuracy of their information and their capabilities to fulfill the obligations under the agreements with you. You, at your sole discretion, decide whether to use the Third-Party Service. You understand that such transactions and corresponding contractual relationship are between you and your counterparty, instead of the Company. We kindly remind you to carefully review the authenticity, legitimacy, and effectiveness of related information provided by Third-Party Service before you decide to use them. In addition, you shall also assume all the risks arising from the transactions between you and any third-party-developed exchanges."
+        },
+        {
+          "depth": 2,
+          "content": "5. You acknowledge that Mirror Wallet may provide services to you and your counterparty simultaneously or may have affiliation or other interest relationship with foregoing parties, and you agree to waive any actual or potential conflicts of interests and will not claim against Company on such base or burden Company with more responsibilities or duty of care."
+        },
+        {
+          "depth": 2,
+          "content": "6. You are aware that Mirror Wallet is only a tool for Users to manage their Tokens and to display transaction information. Company does not provide legal, tax or investment advice. You shall seek advice from professional legal, tax, and investment advisors. In addition, Company shall not be liable for any investment loss, data loss etc. during your use of our service."
+        },
+        {
+          "depth": 2,
+          "content": "7. You understand that we may change our entry standards, limit the range and ways to provide services for specific Users etc. at any time in accordance with applicable laws and regulations."
+        },
+        {
+          "depth": 1,
+          "content": "This Agreement includes Mirror Wallet’s Terms of Service, Privacy Policy, and other rules (including contents in the “Support” column) posted by Company from time to time."
+        },
+        {
+          "depth": 1,
+          "content": "This Agreement contains the entire agreement and the understanding between us and supersedes all prior agreements, understandings or arrangements (both oral and written) in relation to the use of Mirror Wallet and the services in connection thereto."
+        }
+      ]
+    },
+    {
+      "content": "Taxes",
+      "expandable": true,
+      "list": [
+        {
+          "depth": 1,
+          "content": "1. The use of Services shall be exclusive of all taxes that are applicable to, arising from, or in connection to your use of the Services in any jurisdiction (“Payable Tax”)."
+        },
+        {
+          "depth": 1,
+          "content": "2. You shall be responsible for determining any Payable Tax and declaring, withholding, collecting, reporting and remitting the correct amount of Payable Tax to the appropriate tax authorities. You shall be solely liable for all penalties, claims, fines, punishments, or other liabilities arising from the non-fulfilment or non-performance to any extent of any of your obligations in relation to the Payable Tax."
+        },
+        {
+          "depth": 1,
+          "content": "3. We shall not be responsible for determining any Payable Tax and declaring, withholding, collecting, reporting and remitting the correct amount of Payable Tax to the appropriate tax authorities."
+        },
+        {
+          "depth": 1,
+          "content": "4. Governing Law and Dispute Resolution"
+        },
+        {
+          "depth": 1,
+          "content": "This Agreement shall be governed by and construed in accordance with the laws of the Republic of Singapore."
+        }
+      ]
+    },
+    {
+      "content": "Translations",
+      "expandable": true,
+      "list": [
+        {
+          "depth": 1,
+          "content": "Translated versions of this Agreement (if any) are provided for the convenience of Users, and are not intended to revise the English version of this Agreement. If there is any discrepancy between the English version and non-English version of this Agreement, the English version shall prevail"
+        }
+      ]
+    }
+  ],
+  "agree": "I have read and understand these risks, and wish to proceed."
+}
