@@ -1,0 +1,47 @@
+{
+  "title1":"Dear user,",
+  "title2":"Before you use the Mirror software,\nplease be aware of the following risks:",
+  "contents":[
+     {
+        "content":"Identity",
+        "expandable":false,
+        "list":[
+           {
+              "depth":1,
+              "content":"No custodian including the Mirror team holds underlying assets for you on your behalf. You are the sole legal entity with the rights assets in your wallet."
+           }
+        ]
+     },
+     {
+        "content":"Significant risks",
+        "expandable":false,
+        "list":[
+           {
+              "depth":1,
+              "content":"Mirror may contain significant risks, bugs, or issues that may lead the software to not work as intended. The Mirror Wallet does not make any guarantees of the correctness of the software, and disclaim that the underlying software is intended to be used AS-IS, and is to be used at your own risk."
+           }
+        ]
+     },
+     {
+        "content":"Limitations in ownership",
+        "expandable":false,
+        "list":[
+           {
+              "depth":1,
+              "content":"Given that mirrored assets are simple synthetic tokens, they do not confer to the bearer many rights that are to be expected in holding the actual underlying asset, such as governance rights and rights to dividends."
+           }
+        ]
+     },
+     {
+        "content":"Agency disclaimer",
+        "expandable":false,
+        "list":[
+           {
+              "depth":1,
+              "content":"No entity, including the Mirror Wallet team, has control over the list of assets that are on the Terra blockchain. The Mirror Wallet team is not responsible for the listing and failure of any assets on the blockchain."
+           }
+        ]
+     }
+  ],
+  "agree":"I have read and understand these risks, and wish to proceed."
+}
