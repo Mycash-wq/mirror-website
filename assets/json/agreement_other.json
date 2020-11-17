@@ -23,16 +23,6 @@
         ]
      },
      {
-        "content":"Limitations in ownership",
-        "expandable":false,
-        "list":[
-           {
-              "depth":1,
-              "content":"Given that mirrored assets are simple synthetic tokens, they do not confer to the bearer many rights that are to be expected in holding the actual underlying asset, such as governance rights and rights to dividends."
-           }
-        ]
-     },
-     {
         "content":"Agency disclaimer",
         "expandable":false,
         "list":[
