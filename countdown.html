@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8">
+  <title>Mirror</title>
+  <meta name="description" content="Synthetic Asset Protocol">
+  <meta name="author" content="Mirror">
+  <meta name="keywords"
+    content="mirror, mirror protocol, synthetic asset protocol, synthetic, blockchains, blockchains, blockchain economy">
+  <link rel="canonical" href="https://mirror.finance/">
+  <meta property="og:url" content="http://mirror.finance">
+  <meta property="og:title" content="Mirror">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Synthetic Asset Protocol">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <link rel="icon" href="assets/img/favicon.svg" />
+  <link rel="mask-icon" href="assets/img/safari_favicon.svg" color="#888888">
+  <meta property="og:image" content="https://mirror.finance/assets/img/meta_image.png">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css?v4" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    div {
+      font-size: inherit;
+    }
+    .wrapper {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      opacity: 0;
+      transition: opacity .5s;
+    }
+    h1 {
+      font-size: 18px;
+      font-weight: 300;
+      margin-top: 20px;
+    }
+    .logo {
+      width: 50px;
+      height: 14px;
+      background-image: url(./assets/img/logo_mobile.svg);
+      margin-top: -2px;
+      transform: scale(2);
+    }
+    @media (max-width: 560px) {
+      h1 {
+      font-size: 16px;
+      margin-top: 20px;
+      }
+      .logo {
+        transform: scale(2);
+      }
+    }
+    @media (min-width: 1080px) {
+      h1 {
+      font-size: 24px;
+      margin-top: 30px;
+      }
+      .logo {
+        transform: scale(3);
+      }
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="assets/js/dscountdown.js"></script>
+  <script src="assets/js/modernizr.js"></script>
+  <link rel="stylesheet" href="assets/css/countdown.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGLCPNX12K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LGLCPNX12K');
+  </script>
+</head>
+
+<body>
+  <div class="between" style="display: none !important;"></div>
+  <div class="finish" style="display: none !important;"></div>
+  <div class="wrapper">
+    <div class="logo"></div>
+    <h1>Time left until launch</h1>
+    <!-- Countdown -->
+    <div class="countdown large">
+      <!-- Days -->
+      <div class="time days">
+          <div class="value">00</div>
+          <div class="unit">Days</div>
+      </div>
+      <!-- Hours -->
+      <div class="time hours">
+          <div class="value">00</div>
+          <div class="unit">Hours</div>
+      </div>
+      <!-- Minutes -->
+      <div class="time minutes">
+          <div class="value">00</div>
+          <div class="unit">Minutes</div>
+      </div>
+      <!-- Seconds -->
+      <div class="time seconds">
+          <div class="value">00</div>
+          <div class="unit">Seconds</div>
+      </div>
+  </div>
+  <!-- Countdown end -->
+  </div>
+  
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script type="text/javascript">
+    $().ready(function() {
+
+        // Activate countdownTimer plugin on a '.countdown' element
+        $(".countdown").countdownTimer({
+            // Set the end date for the countdown
+            endTime: new Date("December 3, 2020 19:00:00 UTC")
+        });
+        
+        $('.finish').dsCountDown({
+            endDate: new Date("December 3, 2020 19:00:05 UTC"),
+            theme: 'white',
+            onFinish: function() {
+                $("body").fadeOut(0, function() {
+                    window.location.href = "./landing.html"
+                })
+            }
+        });
+        
+        $('.between').dsCountDown({
+            endDate: new Date("December 3, 2020 18:59:57 UTC"),
+            theme: 'white',
+            onFinish: function() {
+                $("body").fadeOut(2000, function() {
+                    window.location.href = "./landing.html"
+                })
+            }
+        });
+
+
+    });
+
+    $(window).load(function () {
+      $(".wrapper").css( "opacity", "1" );
+    });
+</script>
+</body>
+
+</html>
