@@ -277,6 +277,7 @@ header nav a:hover svg {
   .dropdown .link {
     font-size: 11px;
     line-height: 34px;
+    font-weight: 500;
   }
 
   .dropdown .dropdown-menu {
