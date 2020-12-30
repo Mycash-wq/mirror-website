@@ -113,7 +113,7 @@ header nav a:last-child {
   padding-right: 0;
 }
 
-header nav a:before {
+header nav a:before, header nav .dropdown:before {
   content: '';
   position: absolute;
   top: 50%;
@@ -151,6 +151,75 @@ header nav a:hover svg {
   fill: #2c9fef;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 14.2px;
+  line-height: 44px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  transition: color .2s;
+  text-transform: uppercase;
+  color: #232c45;
+}
+
+.dropdown .more {
+  font-size: 14.2px;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 1px;
+  display: none;
+  margin: 0;
+  list-style: none;
+  width: 130px;
+  padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,.1); 
+  box-shadow: 0px 5px 15px 5px rgba(0,0,0,.1);
+}
+
+.dropdown .link {
+  display: block;
+  text-decoration: none;
+  background: #fff;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  border-bottom: solid 1px #f0f0f0;
+}
+
+.dropdown li:last-child .link {
+ border-bottom: 0;
+}
+
 .desktop {
   display: block !important;
 }
@@ -185,17 +254,21 @@ header nav a:hover svg {
     bottom: auto;
   }
 
-  header nav a {
+  header nav a, .dropdown {
     font-size: 11px;
     padding: 0 10px;
     letter-spacing: 0;
+  }
+
+  .dropdown .more {
+    font-size: 11px;
   }
 
   header nav a span {
     font-size: 9px;
   }
 
-  header nav a:before {
+  header nav a:before, .dropdown:before {
     display: none;
   }
 
@@ -206,6 +279,15 @@ header nav a:hover svg {
   header nav a svg {
     width: 15px;
     height: 12px;
+  }
+
+  .dropdown .link {
+    font-size: 11px;
+    line-height: 34px;
+  }
+
+  .dropdown .dropdown-menu {
+    width: 100px;
   }
 
   .desktop {
