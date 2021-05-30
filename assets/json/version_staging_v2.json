@@ -1,0 +1,4 @@
+{
+  "ios": { "app": "1.0.1", "codepush": "v14" },
+  "android": { "app": "1.0.1", "codepush": "v6" }
+}
